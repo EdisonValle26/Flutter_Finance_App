@@ -14,13 +14,13 @@ class SplashPage extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: AppColors.greeGradient,
+            colors: AppColors.greenGradient,
           ),
         ),
-        //child:  Image.asset('assets/images/man.png')
+      //child:  Image.asset('assets/images/man.png'),
         child: Text(
               'financy',
-              style: AppTextStyles.bigText.copyWith(color: AppColors.white),
+              style: AppTextStyles.bigText50.copyWith(color: AppColors.white),
             ),
       ),
     );
